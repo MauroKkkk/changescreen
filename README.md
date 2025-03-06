@@ -14,27 +14,26 @@ This Python script leverages **pyautogui** and **OpenCV** to automate switching 
 - Python 3.x
 - [pyautogui](https://pyautogui.readthedocs.io/)
 - [OpenCV](https://opencv.org/)
-- [NumPy](https://numpy.org/)
 
 ## Installation
 
 1. **Clone the Repository:**
 
    ```bash
-   git clone https://github.com/yourusername/taskbar-switcher.git
-   cd taskbar-switcher
+   git clone https://github.com/MauroKkkk/changescreen.git
+   cd changescreen
    ```
 
 2. **Install the Required Packages:**
 
    ```bash
-   pip install pyautogui opencv-python numpy
+   pip install pyautogui opencv-python
    ```
 
 ## Setup
 
 1. **Templates:**
-   - Place the template images for the AnyDesk and Chrome icons in a folder named `templates` within the project directory.
+   - Place the template images for the AnyDesk and Chrome icons in a folder named `img` within the project directory.
    - Ensure the template images are clear and cropped to only show the icon for accurate detection.
 
 2. **Configuration:**
@@ -46,7 +45,7 @@ This Python script leverages **pyautogui** and **OpenCV** to automate switching 
 Run the script using Python:
 
 ```bash
-python switcher.py
+python changescreen.py
 ```
 
 The script will continuously capture screenshots of the Windows taskbar, detect the positions of the AnyDesk and Chrome icons, and automatically click on them at the defined intervals, effectively switching between the applications.
